@@ -1,0 +1,349 @@
+
+	
+
+:A81712 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a81712@alunos.uminho.pt"^^xsd:string ;
+    :ident "A81712"^^xsd:string ;
+    :nome "Ana Filipa Pereira"^^xsd:string .           
+    
+	
+
+:A71385 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a71385@alunos.uminho.pt"^^xsd:string ;
+    :ident "A71385"^^xsd:string ;
+    :nome "Bruno Silva"^^xsd:string .           
+    
+	
+
+:A78997 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a78997@alunos.uminho.pt"^^xsd:string ;
+    :ident "A78997"^^xsd:string ;
+    :nome "Bruno Sousa"^^xsd:string .           
+    
+	
+
+:A82324 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a82324@alunos.uminho.pt"^^xsd:string ;
+    :ident "A82324"^^xsd:string ;
+    :nome "Carlos Barbosa"^^xsd:string .           
+    
+	
+
+:PG37149 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "pg37149@alunos.uminho.pt"^^xsd:string ;
+    :ident "PG37149"^^xsd:string ;
+    :nome "Diego Silva"^^xsd:string .           
+    
+	
+
+:A75536 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a75536@alunos.uminho.pt"^^xsd:string ;
+    :ident "A75536"^^xsd:string ;
+    :nome "Eduardo Araújo"^^xsd:string .           
+    
+	
+
+:A71940 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a71940@alunos.uminho.pt"^^xsd:string ;
+    :ident "A71940"^^xsd:string ;
+    :nome "Eduardo Cunha"^^xsd:string .           
+    
+	
+
+:A70922 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a70922@alunos.uminho.pt"^^xsd:string ;
+    :ident "A70922"^^xsd:string ;
+    :nome "Francisco Costa"^^xsd:string .           
+    
+	
+
+:PG38415 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "pg38415@alunos.uminho.pt"^^xsd:string ;
+    :ident "PG38415"^^xsd:string ;
+    :nome "Henrique Ribeiro"^^xsd:string .           
+    
+	
+
+:A80757 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a80757@alunos.uminho.pt"^^xsd:string ;
+    :ident "A80757"^^xsd:string ;
+    :nome "Jaime Leite"^^xsd:string .           
+    
+	
+
+:PG33874 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "pg33874@alunos.uminho.pt"^^xsd:string ;
+    :ident "PG33874"^^xsd:string ;
+    :nome "João Grenhas"^^xsd:string .           
+    
+	
+
+:A75569 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a75569@alunos.uminho.pt"^^xsd:string ;
+    :ident "A75569"^^xsd:string ;
+    :nome "João Leal"^^xsd:string .           
+    
+	
+
+:A80874 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a80874@alunos.uminho.pt"^^xsd:string ;
+    :ident "A80874"^^xsd:string ;
+    :nome "João Pimentel"^^xsd:string .           
+    
+	
+
+:A76516 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a76516@alunos.uminho.pt"^^xsd:string ;
+    :ident "A76516"^^xsd:string ;
+    :nome "João Vieira"^^xsd:string .           
+    
+	
+
+:A80424 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a80424@alunos.uminho.pt"^^xsd:string ;
+    :ident "A80424"^^xsd:string ;
+    :nome "José Carvalho"^^xsd:string .           
+    
+	
+
+:A63129 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a63129@alunos.uminho.pt"^^xsd:string ;
+    :ident "A63129"^^xsd:string ;
+    :nome "José Freitas"^^xsd:string .           
+    
+	
+
+:A72187 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a72187@alunos.uminho.pt"^^xsd:string ;
+    :ident "A72187"^^xsd:string ;
+    :nome "José Lima"^^xsd:string .           
+    
+	
+
+:A74036 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a74036@alunos.uminho.pt"^^xsd:string ;
+    :ident "A74036"^^xsd:string ;
+    :nome "Manuel Monteiro"^^xsd:string .           
+    
+	
+
+:A67713 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a67713@alunos.uminho.pt"^^xsd:string ;
+    :ident "A67713"^^xsd:string ;
+    :nome "Manuel Moreno"^^xsd:string .           
+    
+	
+
+:PG39292 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "pg39292@alunos.uminho.pt"^^xsd:string ;
+    :ident "PG39292"^^xsd:string ;
+    :nome "Maria Pinto"^^xsd:string .           
+    
+	
+
+:PG41089 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "pg41089@alunos.uminho.pt"^^xsd:string ;
+    :ident "PG41089"^^xsd:string ;
+    :nome "Miguel Dias"^^xsd:string .           
+    
+	
+
+:PG17918 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "pg17918@alunos.uminho.pt"^^xsd:string ;
+    :ident "PG17918"^^xsd:string ;
+    :nome "Paulo Martins"^^xsd:string .           
+    
+	
+
+:A33524 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a33524@alunos.uminho.pt"^^xsd:string ;
+    :ident "A33524"^^xsd:string ;
+    :nome "Pedro Paes"^^xsd:string .           
+    
+	
+
+:A74264 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a74264@alunos.uminho.pt"^^xsd:string ;
+    :ident "A74264"^^xsd:string ;
+    :nome "Rafael Silva"^^xsd:string .           
+    
+	
+
+:A74568 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a74568@alunos.uminho.pt"^^xsd:string ;
+    :ident "A74568"^^xsd:string ;
+    :nome "Ricardo Canela"^^xsd:string .           
+    
+	
+
+:A75411 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a75411@alunos.uminho.pt"^^xsd:string ;
+    :ident "A75411"^^xsd:string ;
+    :nome "Ricardo Leal"^^xsd:string .           
+    
+	
+
+:A78914 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a78914@alunos.uminho.pt"^^xsd:string ;
+    :ident "A78914"^^xsd:string ;
+    :nome "Ricardo Martins"^^xsd:string .           
+    
+	
+
+:A78764 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a78764@alunos.uminho.pt"^^xsd:string ;
+    :ident "A78764"^^xsd:string ;
+    :nome "Ricardo Neves"^^xsd:string .           
+    
+	
+
+:A77045 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a77045@alunos.uminho.pt"^^xsd:string ;
+    :ident "A77045"^^xsd:string ;
+    :nome "Ricardo Pereira"^^xsd:string .           
+    
+	
+
+:A79947 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a79947@alunos.uminho.pt"^^xsd:string ;
+    :ident "A79947"^^xsd:string ;
+    :nome "Rui Costa"^^xsd:string .           
+    
+	
+
+:A74658 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a74658@alunos.uminho.pt"^^xsd:string ;
+    :ident "A74658"^^xsd:string ;
+    :nome "Rui Vieira"^^xsd:string .           
+    
+	
+
+:A82617 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a82617@alunos.uminho.pt"^^xsd:string ;
+    :ident "A82617"^^xsd:string ;
+    :nome "Shahzod Yusupov"^^xsd:string .           
+    
+	
+
+:A75328 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :GCS ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a75328@alunos.uminho.pt"^^xsd:string ;
+    :ident "A75328"^^xsd:string ;
+    :nome "Tiago Baptista"^^xsd:string .           
+    
+	
+
+:A61032 rdf:type owl:NamedIndividual ,
+             :Pessoa ;
+    :frequenta :PRI ;
+    :curso "MIEI"^^xsd:string ;
+    :email "a61032@alunos.uminho.pt"^^xsd:string ;
+    :ident "A61032"^^xsd:string ;
+    :nome "Tiago Pereira"^^xsd:string .           
+    
+
+
+:PRI rdf:type owl:NamedIndividual ,
+:UC .
+
+
+:GCS rdf:type owl:NamedIndividual ,
+:UC .

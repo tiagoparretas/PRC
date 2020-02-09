@@ -1,0 +1,240 @@
+<Alunos>
+	<Aluno>
+		<Numero>A81712</Numero>
+		<Nome>Ana Filipa Pereira</Nome>
+		<Email>a81712@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A71385</Numero>
+		<Nome>Bruno Silva</Nome>
+		<Email>a71385@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A78997</Numero>
+		<Nome>Bruno Sousa</Nome>
+		<Email>a78997@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A82324</Numero>
+		<Nome>Carlos Barbosa</Nome>
+		<Email>a82324@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>PG37149</Numero>
+		<Nome>Diego Silva</Nome>
+		<Email>pg37149@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A75536</Numero>
+		<Nome>Eduardo Araújo</Nome>
+		<Email>a75536@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A71940</Numero>
+		<Nome>Eduardo Cunha</Nome>
+		<Email>a71940@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A70922</Numero>
+		<Nome>Francisco Costa</Nome>
+		<Email>a70922@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>PG38415</Numero>
+		<Nome>Henrique Ribeiro</Nome>
+		<Email>pg38415@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A80757</Numero>
+		<Nome>Jaime Leite</Nome>
+		<Email>a80757@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>PG33874</Numero>
+		<Nome>João Grenhas</Nome>
+		<Email>pg33874@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A75569</Numero>
+		<Nome>João Leal</Nome>
+		<Email>a75569@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A80874</Numero>
+		<Nome>João Pimentel</Nome>
+		<Email>a80874@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A76516</Numero>
+		<Nome>João Vieira</Nome>
+		<Email>a76516@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A80424</Numero>
+		<Nome>José Carvalho</Nome>
+		<Email>a80424@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A63129</Numero>
+		<Nome>José Freitas</Nome>
+		<Email>a63129@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A72187</Numero>
+		<Nome>José Lima</Nome>
+		<Email>a72187@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A74036</Numero>
+		<Nome>Manuel Monteiro</Nome>
+		<Email>a74036@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A67713</Numero>
+		<Nome>Manuel Moreno</Nome>
+		<Email>a67713@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>PG39292</Numero>
+		<Nome>Maria Pinto</Nome>
+		<Email>pg39292@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>PG41089</Numero>
+		<Nome>Miguel Dias</Nome>
+		<Email>pg41089@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>PG17918</Numero>
+		<Nome>Paulo Martins</Nome>
+		<Email>pg17918@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A33524</Numero>
+		<Nome>Pedro Paes</Nome>
+		<Email>a33524@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A74264</Numero>
+		<Nome>Rafael Silva</Nome>
+		<Email>a74264@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A74568</Numero>
+		<Nome>Ricardo Canela</Nome>
+		<Email>a74568@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A75411</Numero>
+		<Nome>Ricardo Leal</Nome>
+		<Email>a75411@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A78914</Numero>
+		<Nome>Ricardo Martins</Nome>
+		<Email>a78914@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A78764</Numero>
+		<Nome>Ricardo Neves</Nome>
+		<Email>a78764@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A77045</Numero>
+		<Nome>Ricardo Pereira</Nome>
+		<Email>a77045@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A79947</Numero>
+		<Nome>Rui Costa</Nome>
+		<Email>a79947@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A74658</Numero>
+		<Nome>Rui Vieira</Nome>
+		<Email>a74658@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A82617</Numero>
+		<Nome>Shahzod Yusupov</Nome>
+		<Email>a82617@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A75328</Numero>
+		<Nome>Tiago Baptista</Nome>
+		<Email>a75328@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>GCS</UC>
+	</Aluno>
+	<Aluno>
+		<Numero>A61032</Numero>
+		<Nome>Tiago Pereira</Nome>
+		<Email>a61032@alunos.uminho.pt</Email>
+		<Curso>MIEI</Curso>
+		<UC>PRI</UC>
+	</Aluno>
+</Alunos>
