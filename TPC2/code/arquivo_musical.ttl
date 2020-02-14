@@ -1,0 +1,150 @@
+@prefix : <http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical> .
+
+<http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical> rdf:type owl:Ontology ;
+                                                                           rdfs:comment "Arquivo Musical" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#carateriza
+:carateriza rdf:type owl:ObjectProperty ;
+            owl:inverseOf :é_caraterizada ;
+            rdfs:domain :Info ;
+            rdfs:range :Obra .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#define
+:define rdf:type owl:ObjectProperty ;
+        owl:inverseOf :é_definido ;
+        rdfs:domain :Partitura ;
+        rdfs:range :Instrumento .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#utiliza
+:utiliza rdf:type owl:ObjectProperty ;
+         owl:inverseOf :é_utilizado ;
+         rdfs:domain :Obra ;
+         rdfs:range :Instrumento .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#é_caraterizada
+:é_caraterizada rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#é_definido
+:é_definido rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#é_utilizado
+:é_utilizado rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#arranjo
+:arranjo rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Obra .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#compositor
+:compositor rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Obra .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#designacao
+:designacao rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Instrumento .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#id
+:id rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Obra .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#path
+:path rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Partitura .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#tipo
+:tipo rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Obra ,
+                  :Partitura .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#titulo
+:titulo rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Obra .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#video
+:video rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Info .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#voz
+:voz rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Partitura .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#Info
+:Info rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#Instrumento
+:Instrumento rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#Obra
+:Obra rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#Partitura
+:Partitura rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#i1
+:i1 rdf:type owl:NamedIndividual ;
+    :designacao "All"^^xsd:string .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#m1
+:m1 rdf:type owl:NamedIndividual ;
+    :utiliza :i1 ;
+    :é_caraterizada :v1 ;
+    :compositor "Ilídio Costa"^^xsd:string ;
+    :tipo "Marcha de Desfile"^^xsd:string ;
+    :titulo "Homenagem a J. Serra"^^xsd:string .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#part1
+:part1 rdf:type owl:NamedIndividual ;
+       :define :i1 ;
+       :path "text.pdf"^^xsd:string ;
+       :tipo "PDF"^^xsd:string ;
+       :voz "I"^^xsd:string .
+
+
+###  http://www.semanticweb.org/tiago/ontologies/2020/1/arquivo_musical#v1
+:v1 rdf:type owl:NamedIndividual ;
+    :video "www.youtube.com/watch?=FGHJ"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
