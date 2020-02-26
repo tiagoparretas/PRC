@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  body
+    div(class="split left")
+      div(class="centered")
+        w3-container
+          .w3-row.w3-section
+            .w3-col(style="width:250%")
+              select.w3-select.w3-border(name="repositorio" id='repositorio')
+                each rep in repositorios 
+                  option(value=rep)= rep
+          .w3-row.w3-section
+            .w3-col(style="width:250%")
+              textarea.w3-input.w3-border(required rows='20' type='text' name='query' placeholder='Query' id='query')
+          .w3-center.w3-padding.w3-margin-bottom
+            button.w3-btn.w3-white.w3-padding(id='exec') EXEC
+    div(class="split right")
+      div(class="centered")
+        w3-container
+          .w3-row.w3-section
+            .w3-col(style="width:250%")
+              textarea.w3-input.w3-border(rows='20' type='text' name='result' placeholder='Result' id='results')
+            .w3-center.w3-padding.w3-margin-bottom
+              button.w3-btn.w3-white.w3-padding(id='clean') CLEAN 
