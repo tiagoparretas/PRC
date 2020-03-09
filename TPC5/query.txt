@@ -1,0 +1,12 @@
+select distinct ?name ?gender ?birth_Date ?birth_place ?death_date ?abstract where {
+   ?p a dbo:Swimmer .
+   ?p foaf:name ?name .
+   ?p foaf:gender ?gender .
+   ?p dbo:birthDate ?birth_Date .
+   optional {
+       ?p dbo:birthPlace ?bplace.
+       ?bplace foaf:name ?birth_place .
+       ?p dbo:deathDate ?death_date .
+       ?p dbo:abstract ?abstract .
+   }
+}
