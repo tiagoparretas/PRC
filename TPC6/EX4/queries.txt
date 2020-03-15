@@ -1,0 +1,38 @@
+select ?numero ?nome (group_concat(distinct ?tipo; separator=", ") as ?tipos) where {
+    ?pokemon a pokemon:Pokemon .
+    ?pokemon pokemon:Name ?nome . 
+    filter(lang(?nome) = 'en')
+    ?pokemon pokemon:HasType ?tp .
+    ?tp pokemon:Name ?tipo .
+    ?pokemon pokemon:Number ?numero .
+    filter(lang(?tipo) = 'en')
+} group by ?numero ?nome 
+
+
+
+Quantos pokémons estão catalogadas na ontologia?
+
+select (count(distinct ?nome) as ?pokemons) where {
+    ?pokemon a pokemon:Pokemon .
+    ?pokemon pokemon:Name ?nome . 
+    filter(lang(?nome) = 'en')
+} 
+
+
+Quantos tipos diferentes de pokémons exitem na ontologia?
+
+select (count(distinct ?tipo) as ?tipos) where {
+    ?pokemon a pokemon:Pokemon .
+    ?pokemon pokemon:HasType ?tp .
+    ?tp pokemon:Name ?tipo .
+    filter(lang(?tipo) = 'en') 
+}
+
+Quantos pokémons existem associados a cada tipo?
+
+select distinct ?tipo (count(?pokemon) as ?pokemons) where {
+    ?pokemon a pokemon:Pokemon .
+    ?pokemon pokemon:HasType ?tp .
+    ?tp pokemon:Name ?tipo .
+    filter(lang(?tipo) = 'en') .
+} group by ?tipo

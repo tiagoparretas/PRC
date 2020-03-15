@@ -1,0 +1,244 @@
+@prefix : <http://tiago/ontologies/2020/2/lojas#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://tiago/ontologies/2020/2/lojas> .
+
+<http://tiago/ontologies/2020/2/lojas> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://tiago/ontologies/2020/2/lojas#compra
+:compra rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éCompradoPor ;
+        rdfs:domain :Cliente ;
+        rdfs:range :Produto .
+
+
+###  http://tiago/ontologies/2020/2/lojas#vende
+:vende rdf:type owl:ObjectProperty ;
+       owl:inverseOf :éVendidoPor ;
+       rdfs:domain :Loja ;
+       rdfs:range :Produto .
+
+
+###  http://tiago/ontologies/2020/2/lojas#éCompradoPor
+:éCompradoPor rdf:type owl:ObjectProperty .
+
+
+###  http://tiago/ontologies/2020/2/lojas#éVendidoPor
+:éVendidoPor rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://tiago/ontologies/2020/2/lojas#codigo
+:codigo rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Produto .
+
+
+###  http://tiago/ontologies/2020/2/lojas#email
+:email rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Cliente ,
+                   :Loja .
+
+
+###  http://tiago/ontologies/2020/2/lojas#nome
+:nome rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Cliente ,
+                  :Loja .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://tiago/ontologies/2020/2/lojas#Cliente
+:Cliente rdf:type owl:Class ;
+         rdfs:subClassOf :CompraVenda ;
+         owl:disjointWith :Produto .
+
+
+###  http://tiago/ontologies/2020/2/lojas#CompraVenda
+:CompraVenda rdf:type owl:Class .
+
+
+###  http://tiago/ontologies/2020/2/lojas#Loja
+:Loja rdf:type owl:Class ;
+      rdfs:subClassOf :CompraVenda .
+
+
+###  http://tiago/ontologies/2020/2/lojas#LojaGrande
+:LojaGrande rdf:type owl:Class ;
+            rdfs:subClassOf :Loja .
+
+
+###  http://tiago/ontologies/2020/2/lojas#Produto
+:Produto rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+### Lojas
+
+###  http://tiago/ontologies/2020/2/lojas#continente
+:continente rdf:type owl:NamedIndividual ,
+                    :Loja ;
+           :vende :p1 ;
+           :vende :p3 ;
+           :email "conti@mail.com"^^xsd:string ;
+           :nome "Continente"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#pingoDoce
+:pingoDoce rdf:type owl:NamedIndividual ,
+                    :LojaGrande ;
+           :vende :p1 ;
+           :vende :p2 ;
+           :vende :p3 ;
+           :vende :p5 ;
+           :email "pingoDoce@mail.com"^^xsd:string ;
+           :nome "Pingo Doce"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#continente
+:continente rdf:type owl:NamedIndividual ,
+                    :Loja ;
+           :vende :p4 ;
+           :vende :p7 ;
+           :vende :p10 ;
+           :email "cont@mail.com"^^xsd:string ;
+           :nome "Continente"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#talhoDoBairro
+:talhoDoBairro rdf:type owl:NamedIndividual ,
+                    :Loja ;
+           :vende :p1 ;
+           :vende :p4 ;
+           :vende :p5 ;
+           :vende :p6 ;
+           :email "talho@mail.com"^^xsd:string ;
+           :nome "Talho do Bairro"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#mercadona
+:mercadona rdf:type owl:NamedIndividual ,
+                    :Loja ;
+           :vende :p8 ;
+           :vende :p9 ;
+           :email "merc@mail.com"^^xsd:string ;
+           :nome "Mercadona"^^xsd:string .
+
+### Clientes
+
+###  http://tiago/ontologies/2020/2/lojas#tiago
+:tiago rdf:type owl:NamedIndividual ,
+               :Cliente ;
+      :compra :p1 ;
+      :compra :p2 ;
+      :compra :p3 ;
+      :compra :p4 ;
+      :email "tiago@mail.com"^^xsd:string ;
+      :nome "Tiago Pereira"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#bruno
+:bruno rdf:type owl:NamedIndividual ,
+               :Cliente ;
+      :compra :p1 ;
+      :compra :p4 ;
+      :compra :p5 ;
+      :compra :p6 ;
+      :compra :p7 ;
+      :compra :p8 ;
+      :email "bruno@mail.com"^^xsd:string ;
+      :nome "Bruno Silva"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#peter
+:peter rdf:type owl:NamedIndividual ,
+               :Cliente ;
+      :compra :p10 ;
+      :compra :p9 ;
+      :compra :p1 ;
+      :compra :p3 ;
+      :email "peter@mail.com"^^xsd:string ;
+      :nome "Peter Fresh"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#rui
+:rui rdf:type owl:NamedIndividual ,
+               :Cliente ;
+      :compra :p3 ;
+      :compra :p5 ;
+      :compra :p7 ;
+      :email "rui@mail.com"^^xsd:string ;
+      :nome "Rui Machado"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#cabrita
+:cabrita rdf:type owl:NamedIndividual ,
+               :Cliente ;
+      :compra :p1 ;
+      :compra :p2 ;
+      :compra :p3 ;
+      :compra :p4 ;
+      :compra :p5 ;
+      :compra :p6 ;
+      :compra :p7 ;
+      :email "cabrita@mail.com"^^xsd:string ;
+      :nome "Tiago Cabrita"^^xsd:string .
+
+
+### Produtos
+
+###  http://tiago/ontologies/2020/2/lojas#p1
+:p1 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00001"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#p2
+:p2 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00002"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#p3
+:p3 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00003"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#p4
+:p4 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00004"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#p5
+:p5 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00005"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#p6
+:p6 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00006"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#p7
+:p7 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00007"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#p8
+:p8 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00008"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#p9
+:p9 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00009"^^xsd:string .
+
+###  http://tiago/ontologies/2020/2/lojas#p10
+:p10 rdf:type owl:NamedIndividual ,
+             :Produto ;
+    :codigo "p00010"^^xsd:string .

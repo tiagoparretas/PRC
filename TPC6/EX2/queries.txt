@@ -1,0 +1,29 @@
+Que lojas vendem o produto A?
+
+select ?loja where {
+    :p1 a :Produto .
+    ?l a :Loja .
+    ?l :vende :p1 .
+    ?l :nome ?loja .
+}
+
+
+Que produtos são comprados pelo cliente X?
+
+select ?cli where {
+    :p2 a :Produto .
+    ?c a :Cliente .
+    ?c :compra :p2 .
+    ?c :nome ?cli .
+}
+
+
+Quem são os potenciais clientes da loja Y?
+
+select distinct ?cli where {
+    :continente a :Loja .
+    :continente :vende ?p .
+    ?c :compra ?p .
+    ?c a :Cliente .
+    ?c :nome ?cli .
+}
