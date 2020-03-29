@@ -1,0 +1,47 @@
+Rotas GET:
+
+Filme
+
+    /filmes
+        - título (DP)
+        - duração (DP)
+        - dataLançamento (DP)
+        - língua (OP)
+        - paísOrigem (OP)
+        - realizador (OP)
+
+    /filmes/:id
+        - título (DP)
+        - duração (DP)
+        - dataLançamento (DP)
+        - língua (OP)
+        - paísOrigem (OP)
+        - realizador (OP)
+        =====================
+        - [produtor]
+        - [ator]
+        - [género]
+        - [personagem]
+
+
+
+Ator
+
+    /atores
+
+    /actores/:id
+
+Personagem
+
+    /personagens
+    /personagens/:id
+
+País
+    /países
+
+Língua
+    /línguas
+
+Género
+    /géneros
+
