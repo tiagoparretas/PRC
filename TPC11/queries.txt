@@ -1,0 +1,32 @@
+# Tios ou Tias
+
+SELECT ?nephew :hasUncle ?p where {
+	?p a :Person .
+    ?p :sex "M" .
+    ?p :sex "F" .
+	?p :hasSibling/:hasSon ?nephew .
+    } union {
+    	?p :hasSibling/:hasDaughter ?nephew .
+    }
+}
+
+
+# Primos
+SELECT  ?child :hasCousin ?cousin {
+    ?p a :Person .
+    ?p :hasChild ?child .
+    ?p :hasSibling/:hasChild ?cousin .
+    filter(?child != ?cousin) .
+}
+
+# Ancestrais
+SELECT ?person :hasAncestor ?ancestor where {
+    ?person a :Person .
+    ?person :hasParent+ ?ancestor .
+}
+
+# Descendestes
+SELECT ?person :hasDescendent ?descendent where{
+    ?person a :Person .
+    ?person :hasChild+ ?descendent .
+}
